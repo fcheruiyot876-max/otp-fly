@@ -1,0 +1,11 @@
+{
+  "name": "telegram-bot-starter",
+  "version": "1.0.0",
+  "main": "bypass.py",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
