@@ -1,0 +1,8 @@
+bot.onText(/\/start/, (msg) => {
+  const chatId = msg.chat.id;
+  const firstName = msg.from.first_name || "there";
+
+  bot.sendMessage(chatId, Hey ${firstName}! 👋  
+Welcome to our bot.  
+Use the menu below to get started.);
+});
